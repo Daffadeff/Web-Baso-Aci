@@ -21,19 +21,24 @@ body {
 }
 .navbar > a {
   display: flex;
-  margin: 20px;
+  margin: 5px;
   text-decoration: none;
 }
 .navbar > a:hover {
   transition: all 0.3s ease-in-out;
   transform: scale(1.2);
 }
+.container-satu .body .navbar .navbar-logo > img {
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
 .text-satu {
   color: crimson;
-  padding-right: 3px;
 }
 .text-dua {
   color: #eaeaea;
+  margin-left: 5px;
 }
 .navbar-dua {
   display: flex;
@@ -287,7 +292,7 @@ body {
 .carousel__text {
   color: #eaeaea;
   position: absolute;
-  left: 640px;
+  left: 685px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -305,7 +310,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    width: 45vw;
+    width: 100vw;
     border: 2px solid #333;
     height: 400px;
 }  
@@ -345,11 +350,15 @@ body {
   width: 95%;
   margin: auto;
   border-radius: 10px;
+  margin-top: 40px;
+}
+.container-product .wrapper .row {
+  margin: 5px;
 }
 .container-product .wrapper .row .card {
   width: 15rem;
   border-radius: 10px;
-  margin: 25px;
+  margin: 30px;
   cursor: pointer;
 }
 .container-product .wrapper .row .card:hover {
@@ -466,7 +475,7 @@ body {
 /* Content Empat */
 .container-lima {
   width: 95%;
-  height: 350px;
+  height: 400px;
   background-color: #222;
   margin: 40px 0px 0px 30px;
   border-radius: 25px;
@@ -636,8 +645,8 @@ body {
     align-items: center;
   }
   .container-product .wrapper .row .card {
-    width: 8rem;
-    margin: 10px;
+    width: 10rem;
+    margin: 10px 10px 10px 10px;
   }
   .container-tiga {
     overflow: hidden;

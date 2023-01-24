@@ -198,6 +198,7 @@ body {
   min-width: 550px;
   height: 500px;
   border-radius: 15px;
+  object-fit: scale-down cover;
 }
 .wrapper .content2 {
   width: 560px;

@@ -10,7 +10,7 @@ function typeText() {
 }
 typeText();
 let letter2 = 0;
-const text2 = "Akang Rusdi";
+const text2 = "Pertigaan";
 function typeText2() {
     if (letter2 < text2.length) {
         document.getElementById("text2").innerHTML += 
