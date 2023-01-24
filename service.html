@@ -23,8 +23,6 @@
                     <li><a href="about.html">about</a></li>
                     <li><a href="service.html">service</a></li>
                 </ul>
-                <input type="Search" placeholder=" Search...">
-                <button>Search</button>
             </div>
         </div>
     </nav>
@@ -33,7 +31,7 @@
     <div class="servicecontent">
         <div class="header">
             <div class="text1">Costumer</div>
-            <div class="text2">|</div>
+            <div class="text2" style="margin-right: 5px;">|</div>
             <div class="text2">Service</div>
         </div>
         <div class="content1">
@@ -42,11 +40,16 @@
         <div class="content2">
             <div class="contain1">
                 <div class="text1">Contact</div>
-                <div class="text2">|</div>
+                <div class="text2" style="margin-right: 5px;">|</div>
                 <div class="text2">Person +6282260875811</div>
             </div>
             <div class="contain2">
-                <img src="assets/logowaassets.png" alt="">
+                <p onclick="kirimWhatsapp()"><img src="assets/logowaassets.png" alt=""></p>
+                <script>
+                    function kirimWhatsapp(){
+                      location.assign("https://wa.me/6282260875811/?text=Aku%20Mau%20Pesan%20Bakso%20Aci");
+                      }
+                </script>
             </div>
         </div>
     </div>

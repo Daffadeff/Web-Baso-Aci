@@ -20,6 +20,10 @@ body {
   margin: 20px;
   text-decoration: none;
 }
+.navbar > a:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
 .text-satu {
   color: crimson;
   padding-right: 3px;
@@ -47,7 +51,7 @@ body {
   width: 60px;
   height: 26px;
   background-color: crimson;
-  border-radius: 5px;
+  border-radius: 2px;
   opacity: 0.6;
 }
 .navbar-dua > ul > li:hover {
@@ -62,23 +66,6 @@ body {
   color: white;
   text-transform: capitalize;
   cursor: pointer;
-}
-.navbar-dua > input {
-  display: flex;
-  width: 180px;
-  height: 30px;
-  border-radius: 10px;
-  margin-right: 1px;
-}
-.navbar-dua > button {
-  align-items: center;
-  padding-bottom: 3px;
-  width: 58px;
-  height: 30px;
-  border-radius: 10px;
-  background-color: crimson;
-  color: #eaeaea;
-  margin-top: 1px;
 }
 /* Navbar Close */
 /* Toggle Menu */
@@ -213,7 +200,7 @@ body {
   border-radius: 15px;
 }
 .wrapper .content2 {
-  width: 550px;
+  width: 560px;
   height: 500px;
   margin: 24px 0px 0px 0px;
   background-color: #222;
@@ -297,9 +284,9 @@ body {
 .wrapper .content2 .button-product > a > button:hover {
   background-color: crimson;
   color: #eaeaea;
-  transition: all 0.2s ease-in-out;
-  transition-delay: 0.2s;
+  transition: all 0.3s ease-in-out;
   opacity: 3;
+  transform: scale(1.2);
 }
 /* Content Responsive 884px */
 @media screen and (max-width: 885px) {
