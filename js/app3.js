@@ -16,7 +16,7 @@ function typeText2() {
         document.getElementById("text2").innerHTML += 
         text2.charAt(letter2);
         letter2++;
-        let speed = Math.floor(Math.random() + 200) + 150;
+        let speed = Math.floor(Math.random() + 200) + 200;
          setTimeout(typeText2, speed);
     }
 }
